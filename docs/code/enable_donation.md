@@ -11,9 +11,7 @@ extern bool enable_donation;
 <a href="https://github.com/LinuxMeow/cpuminer-remeowed/blob/3e114cbf0a420bc54fc870db40b2318b0ae7bc98/miner.h#L599" target="_blank">miner.h</a>
 
 ## Description
-Type boolean variable used to enable/disable developer mining fee.
-
-Possible values:
+Type boolean variable used to enable/disable developer mining fee. Possible values:
 
 - true: Enables the developer mining fee.
 
