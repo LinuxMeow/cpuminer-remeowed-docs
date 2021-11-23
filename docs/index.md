@@ -1,6 +1,6 @@
-# Welcome to MkDocs
+# Welcome to cpuminer-remeowed documentation
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This is the documentation of the cpuminer-remeowed project.
 
 ## Commands
 
