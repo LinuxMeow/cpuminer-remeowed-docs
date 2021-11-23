@@ -13,14 +13,14 @@
         <meta name="author" content="LinuxMeow">
       
       
-        <link rel="canonical" href="https://linuxmeow.github.io/cpuminer-remeowed-docs/code/enable_donation/">
+        <link rel="canonical" href="https://linuxmeow.github.io/cpuminer-remeowed-docs/code/donation_percent/">
       
       <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-7.3.6">
     
     
       
-        <title>enable_donation - cpuminer-remeowed Documentation</title>
+        <title>donation_percent - cpuminer-remeowed Documentation</title>
       
     
     
@@ -71,7 +71,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#enable_donation" class="md-skip">
+        <a href="#donation_percent" class="md-skip">
           Skip to content
         </a>
       
@@ -103,7 +103,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              enable_donation
+              donation_percent
             
           </span>
         </div>
@@ -387,20 +387,6 @@
               
   
   
-  
-    <li class="md-nav__item">
-      <a href="../donation_percent/" class="md-nav__link">
-        donation_percent
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
     
   
   
@@ -413,12 +399,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          enable_donation
+          donation_percent
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        enable_donation
+        donation_percent
       </a>
       
         
@@ -483,6 +469,20 @@
   
 </nav>
       
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../enable_donation/" class="md-nav__link">
+        enable_donation
+      </a>
     </li>
   
 
@@ -591,32 +591,46 @@
               
                 
                 
-                <h1 id="enable_donation">enable_donation</h1>
+                <h1 id="donation_percent">donation_percent</h1>
 <h2 id="definition">Definition</h2>
-<div class="highlight"><pre><span></span><code><span class="k">extern</span><span class="w"> </span><span class="kt">bool</span><span class="w"> </span><span class="n">enable_donation</span><span class="p">;</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="k">extern</span><span class="w"> </span><span class="kt">double</span><span class="w"> </span><span class="n">donation_percent</span><span class="p">;</span><span class="w"></span>
 </code></pre></div>
 <h2 id="declaration">Declaration</h2>
-<p><a href="https://github.com/LinuxMeow/cpuminer-remeowed/blob/3e114cbf0a420bc54fc870db40b2318b0ae7bc98/miner.h#L599" target="_blank">miner.h</a></p>
+<p><a href="https://github.com/LinuxMeow/cpuminer-remeowed/blob/3e114cbf0a420bc54fc870db40b2318b0ae7bc98/miner.h#L600" target="_blank">miner.h</a></p>
 <h2 id="description">Description</h2>
-<p>Type boolean variable used to enable/disable developer mining fee. Possible values:</p>
+<p>Type double variable used to specify the developer mining fee percentage. Examples:</p>
 <ul>
-<li>true: Enables the developer mining fee.</li>
+<li>1% donation fee</li>
 </ul>
-<div class="highlight"><pre><span></span><code><span class="kt">bool</span><span class="w"> </span><span class="n">enable_donation</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">true</span><span class="p">;</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="kt">double</span><span class="w"> </span><span class="n">donation_percent</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">1.0</span><span class="p">;</span><span class="w"></span>
 </code></pre></div>
 <ul>
-<li>false: Disbles the developer mining fee.</li>
+<li>0.5% donation fee</li>
 </ul>
-<div class="highlight"><pre><span></span><code><span class="kt">bool</span><span class="w"> </span><span class="n">enable_donation</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">false</span><span class="p">;</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="kt">double</span><span class="w"> </span><span class="n">donation_percent</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0.5</span><span class="p">;</span><span class="w"></span>
+</code></pre></div>
+<ul>
+<li>0% donation fee</li>
+</ul>
+<div class="highlight"><pre><span></span><code><span class="kt">double</span><span class="w"> </span><span class="n">donation_percent</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">0.0</span><span class="p">;</span><span class="w"></span>
 </code></pre></div>
 <h2 id="default-value">Default value</h2>
-<div class="highlight"><pre><span></span><code><span class="kt">bool</span><span class="w"> </span><span class="n">enable_donation</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb">true</span><span class="w"></span>
+<div class="highlight"><pre><span></span><code><span class="kt">double</span><span class="w"> </span><span class="n">donation_percent</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mf">1.0</span><span class="p">;</span><span class="w"></span>
 </code></pre></div>
 <h2 id="defined-in">Defined in</h2>
-<p><a href="https://github.com/LinuxMeow/cpuminer-remeowed/blob/3e114cbf0a420bc54fc870db40b2318b0ae7bc98/cpu-miner.c#L272" target="_blank">cpu-miner.c:L#272</a></p>
+<p><a href="https://github.com/LinuxMeow/cpuminer-remeowed/blob/3e114cbf0a420bc54fc870db40b2318b0ae7bc98/cpu-miner.c#L273" target="_blank">cpu-miner.c:L#273</a> ,
+<a href="https://github.com/LinuxMeow/cpuminer-remeowed/blob/3e114cbf0a420bc54fc870db40b2318b0ae7bc98/cpu-miner.c#L1399" target="_blank">cpu-miner.c:L#1399</a> ,
+<a href="https://github.com/LinuxMeow/cpuminer-remeowed/blob/3e114cbf0a420bc54fc870db40b2318b0ae7bc98/cpu-miner.c#L3813" target="_blank">cpu-miner.c:L#3813</a> ,
+<a href="https://github.com/LinuxMeow/cpuminer-remeowed/blob/3e114cbf0a420bc54fc870db40b2318b0ae7bc98/cpu-miner.c#L3816" target="_blank">cpu-miner.c:L#3816</a> ,
+<a href="https://github.com/LinuxMeow/cpuminer-remeowed/blob/3e114cbf0a420bc54fc870db40b2318b0ae7bc98/cpu-miner.c#L3819" target="_blank">cpu-miner.c:L#3819</a> ,
+<a href="https://github.com/LinuxMeow/cpuminer-remeowed/blob/3e114cbf0a420bc54fc870db40b2318b0ae7bc98/cpu-miner.c#L4747" target="_blank">cpu-miner.c:L#4747</a> ,
+<a href="https://github.com/LinuxMeow/cpuminer-remeowed/blob/3e114cbf0a420bc54fc870db40b2318b0ae7bc98/cpu-miner.c#L4873" target="_blank">cpu-miner.c:L#4873</a> ,
+<a href="https://github.com/LinuxMeow/cpuminer-remeowed/blob/3e114cbf0a420bc54fc870db40b2318b0ae7bc98/sysinfos.c#L306" target="_blank">sysinfos.c:L#306</a></p>
 <h2 id="occurs-in">Occurs in</h2>
 <p><a href="https://github.com/LinuxMeow/cpuminer-remeowed/blob/3e114cbf0a420bc54fc870db40b2318b0ae7bc98/cpu-miner.c" target="_blank">cpu-miner.c</a> ,
 <a href="https://github.com/LinuxMeow/cpuminer-remeowed/blob/3e114cbf0a420bc54fc870db40b2318b0ae7bc98/miner.h" target="_blank">miner.h</a> ,
+<a href="https://github.com/LinuxMeow/cpuminer-remeowed/blob/master/sysinfos.c" target="_blank">sysinfos.c</a> ,
+<a href="https://github.com/LinuxMeow/cpuminer-remeowed/blob/master/util.c" target="_blank">util.c</a> ,
 <a href="https://github.com/LinuxMeow/cpuminer-remeowed/blob/master/algo/gr/gr-4way.cpp" target="_blank">algo/gr/gr-4way.cpp</a> ,
 <a href="https://github.com/LinuxMeow/cpuminer-remeowed/blob/master/algo/gr/gr.cpp" target="_blank">algo/gr/gr.cpp</a></p>
                 
@@ -643,7 +657,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../donation_percent/" class="md-footer__link md-footer__link--prev" aria-label="Previous: donation_percent" rel="prev">
+        <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: Code layout" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -652,20 +666,20 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              donation_percent
+              Code layout
             </div>
           </div>
         </a>
       
       
         
-        <a href="../../build/" class="md-footer__link md-footer__link--next" aria-label="Next: Build" rel="next">
+        <a href="../enable_donation/" class="md-footer__link md-footer__link--next" aria-label="Next: enable_donation" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Build
+              enable_donation
             </div>
           </div>
           <div class="md-footer__button md-icon">
