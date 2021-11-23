@@ -11,14 +11,6 @@ edit_uri: ""
 
 copyright: Copyright &copy; 2021 LinuxMeow
 
-nav:
-  - Home: index.md
-  - What is cpuminer-remeowed: whatiscpuminerremeowed.md
-  - Code: 
-    - code.md
-    - enable_donation: code/enable_donation.md
-  - Build: build.md
-
 theme:
   name: material
 
@@ -56,3 +48,12 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.superfences
   - pymdownx.snippets
+
+nav:
+  - Home: index.md
+  - What is cpuminer-remeowed: whatiscpuminerremeowed.md
+  - Code: 
+    - code.md
+    - donation_percent: code/donation_percent.md
+    - enable_donation: code/enable_donation.md
+  - Build: build.md

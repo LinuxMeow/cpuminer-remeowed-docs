@@ -32,7 +32,7 @@ bool enable_donation = true
 ```
 
 ## Defined in
-<a href="https://github.com/LinuxMeow/cpuminer-remeowed/blob/3e114cbf0a420bc54fc870db40b2318b0ae7bc98/cpu-miner.c#L272" target="_blank">cpu-miner.c</a>
+<a href="https://github.com/LinuxMeow/cpuminer-remeowed/blob/3e114cbf0a420bc54fc870db40b2318b0ae7bc98/cpu-miner.c#L272" target="_blank">cpu-miner.c:L#272</a>
 
 ## Occurs in
 
