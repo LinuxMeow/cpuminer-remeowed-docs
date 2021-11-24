@@ -1,4 +1,7 @@
-# donation_percent
+---
+title: donation_percent
+description: Definition of donation_percent variable.
+---
 
 ## Definition
 
@@ -45,7 +48,9 @@ double donation_percent = 1.0;
 <a href="https://github.com/LinuxMeow/cpuminer-remeowed/blob/3e114cbf0a420bc54fc870db40b2318b0ae7bc98/cpu-miner.c#L3819" target="_blank">cpu-miner.c:L#3819</a> ,
 <a href="https://github.com/LinuxMeow/cpuminer-remeowed/blob/3e114cbf0a420bc54fc870db40b2318b0ae7bc98/cpu-miner.c#L4747" target="_blank">cpu-miner.c:L#4747</a> ,
 <a href="https://github.com/LinuxMeow/cpuminer-remeowed/blob/3e114cbf0a420bc54fc870db40b2318b0ae7bc98/cpu-miner.c#L4873" target="_blank">cpu-miner.c:L#4873</a> ,
-<a href="https://github.com/LinuxMeow/cpuminer-remeowed/blob/3e114cbf0a420bc54fc870db40b2318b0ae7bc98/sysinfos.c#L306" target="_blank">sysinfos.c:L#306</a>
+<a href="https://github.com/LinuxMeow/cpuminer-remeowed/blob/3e114cbf0a420bc54fc870db40b2318b0ae7bc98/sysinfos.c#L306" target="_blank">sysinfos.c:L#306</a> ,
+<a href="https://github.com/LinuxMeow/cpuminer-remeowed/blob/3e114cbf0a420bc54fc870db40b2318b0ae7bc98/util.c#L1863" target="_blank">util.c:L#1863</a> ,
+<a href="https://github.com/LinuxMeow/cpuminer-remeowed/blob/3e114cbf0a420bc54fc870db40b2318b0ae7bc98/util.c#L1868" target="_blank">util.c:L#1868</a>
 
 
 

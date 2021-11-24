@@ -1,4 +1,7 @@
-# enable_donation
+---
+title: enable_donation
+description: Definition of enable_donation variable.
+---
 
 ## Definition
 

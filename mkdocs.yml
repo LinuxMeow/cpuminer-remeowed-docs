@@ -51,9 +51,13 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - What is cpuminer-remeowed: whatiscpuminerremeowed.md
+  - What is cpuminer-remeowed?: whatiscpuminerremeowed.md
   - Code: 
     - code.md
     - donation_percent: code/donation_percent.md
+    - du: code/du.md
     - enable_donation: code/enable_donation.md
   - Build: build.md
+
+extra:
+  generator: false
